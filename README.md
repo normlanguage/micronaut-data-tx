@@ -1,3 +1,5 @@
 # Micronaut Data Transactions
 
-`micronaut.data.tx@1` 绑定 Micronaut Data 5.1.3 的真实 `@Transactional` Annotation。可运行示例位于 `micronaut/data/tx/Main.norm`。
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+`micronaut.data.tx@1` binds the real `@Transactional` annotation from Micronaut Data 5.1.3. A runnable example is in `micronaut/data/tx/Main.norm`.
