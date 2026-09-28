@@ -1,0 +1,12 @@
+package binding
+
+import micronaut.data.tx.annotation.Transactional
+
+@Transactional(readOnly: true)
+class QueryService {
+}
+
+Void main() {
+  require(condition: QueryService.class.annotation<Transactional>() != null, message: "Transactional binding is missing")
+  printLine("transactional")
+}
