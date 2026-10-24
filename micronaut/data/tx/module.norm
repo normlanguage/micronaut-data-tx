@@ -2,6 +2,7 @@ Module module() {
   return module(
     name: "micronaut.data.tx",
     version: 2,
+    exports: ["Transactional"],
     binding: jarBinding(
       target: mavenJar(
         group: "io.micronaut.data",
