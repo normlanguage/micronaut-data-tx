@@ -1,6 +1,6 @@
 package binding
 
-import micronaut.data.tx.annotation.Transactional
+import micronaut.data.tx.Transactional
 
 @Transactional(readOnly: true)
 class QueryService {
